@@ -75,7 +75,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
-          bundler-cache: true
+          bundler: "4.0.4"
+          bundler-cache: false
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
@@ -92,8 +93,9 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
+          bundle _4.0.4_ install
           export JEKYLL_ENV=production
-          bundle exec jekyll build
+          bundle _4.0.4_ exec jekyll build
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
