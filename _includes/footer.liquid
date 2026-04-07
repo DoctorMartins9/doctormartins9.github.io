@@ -13,7 +13,7 @@
 
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
+    <div class="container mt-0 footer-shell">
       {{ footer_contents }}
     </div>
   </footer>
@@ -23,7 +23,7 @@
       {% include newsletter.liquid %}
     {% endif %}
 
-    <div class="container">
+    <div class="container footer-shell">
       {{ footer_contents }}
     </div>
   </footer>

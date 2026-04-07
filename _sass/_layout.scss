@@ -8,6 +8,9 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: "Manrope", sans-serif;
+  position: relative;
+  min-height: 100vh;
 
   h1,
   h2,
@@ -19,9 +22,21 @@ body {
   }
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at top left, rgba(213, 141, 73, 0.16), transparent 28%),
+    radial-gradient(circle at 85% 10%, rgba(15, 108, 116, 0.14), transparent 24%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.2), transparent 42%);
+  pointer-events: none;
+  z-index: 0;
+}
+
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
-  padding-top: 57px;
+  padding-top: 76px;
 }
 
 body.sticky-bottom-footer {
@@ -31,6 +46,19 @@ body.sticky-bottom-footer {
 
 .container {
   max-width: v.$max-content-width;
+}
+
+.container[role="main"] {
+  position: relative;
+  z-index: 1;
+}
+
+.post {
+  position: relative;
+}
+
+.post-header {
+  margin-bottom: 2.5rem;
 }
 
 // Profile

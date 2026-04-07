@@ -6,15 +6,18 @@
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  border-bottom: 0;
+  background-color: transparent;
+  opacity: 1;
+  padding-top: 1rem;
 }
 
 .navbar .dropdown-menu,
 .btn-group.dropdown .dropdown-menu {
-  background-color: var(--global-bg-color);
-  border: 1px solid var(--global-divider-color);
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-nav-border-color);
+  border-radius: 1rem;
+  box-shadow: 0 18px 40px var(--global-shadow-color);
 
   a:not(.active) {
     color: var(--global-text-color);
@@ -49,6 +52,20 @@
 }
 
 .navbar.navbar-light {
+  .navbar-shell {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--global-nav-border-color);
+    border-radius: 999px;
+    background: var(--global-nav-bg-color);
+    box-shadow: 0 16px 38px var(--global-shadow-color);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
   a {
     &:hover {
       text-decoration: none;
@@ -57,23 +74,32 @@
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-right: 0.75rem;
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    font-weight: 600;
 
     &:hover {
       color: var(--global-hover-color);
+      background-color: rgba(15, 108, 116, 0.08);
     }
   }
 
   .navbar-nav .nav-item.active > .nav-link {
-    background-color: inherit;
-    font-weight: bolder;
-    color: var(--global-theme-color);
+    background-color: var(--global-theme-color);
+    font-weight: 700;
+    color: var(--global-hover-text-color);
 
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-hover-text-color);
     }
   }
 
@@ -116,6 +142,9 @@
 }
 
 .navbar-toggler {
+  border: 0;
+  padding: 0.4rem 0.25rem 0.2rem;
+
   .icon-bar {
     display: block;
     width: 22px;
@@ -158,7 +187,7 @@
 #light-toggle {
   padding: 0;
   border: 0;
-  background-color: inherit;
+  background-color: transparent;
   color: var(--global-text-color);
   /* Fix footprint to prevent navbar shifting when icon changes */
   width: 2rem;
@@ -166,9 +195,11 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  border-radius: 999px;
 
   &:hover {
     color: var(--global-hover-color);
+    background-color: rgba(15, 108, 116, 0.08);
   }
 }
 
@@ -181,10 +212,37 @@
 #search-toggle {
   padding: 0;
   border: 0;
-  background-color: inherit;
+  background-color: transparent;
   color: var(--global-text-color);
+  font-weight: 600;
+  border-radius: 999px;
+  padding-inline: 0.55rem;
 
   &:hover {
     color: var(--global-hover-color);
+    background-color: rgba(15, 108, 116, 0.08);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar {
+    padding-top: 0.65rem;
+  }
+
+  .navbar.navbar-light {
+    .navbar-shell {
+      border-radius: 1.5rem;
+      padding: 0.85rem 1rem;
+      flex-wrap: wrap;
+    }
+  }
+
+  .navbar-collapse {
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+
+  .navbar-nav {
+    gap: 0.35rem;
   }
 }

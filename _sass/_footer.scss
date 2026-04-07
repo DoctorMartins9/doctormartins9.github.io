@@ -3,14 +3,20 @@
  ******************************************************************************/
 
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: transparent;
   font-size: 0.75rem;
 
-  .container {
+  .footer-shell {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding: 0.85rem 1.25rem;
     text-align: center;
+    margin-bottom: 0.85rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--global-footer-bg-color) 88%, transparent);
+    border: 1px solid color-mix(in srgb, var(--global-footer-text-color) 12%, transparent);
+    box-shadow: 0 18px 32px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
   }
 
   a {
@@ -24,12 +30,16 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
 
-  .container {
+  .footer-shell {
     text-align: center;
+    padding: 1.35rem 1.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 1.5rem;
+    background: var(--global-section-bg-color);
+    box-shadow: 0 18px 40px var(--global-shadow-color);
   }
 }
