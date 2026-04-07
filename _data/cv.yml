@@ -1,189 +1,182 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Enrico Martini
+  label: Postdoctoral Researcher
+  email: enrico.martini@univr.it
+  location: Verona, Italy
+  website: https://doctormartins9.github.io
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >-
+    Postdoctoral researcher at the Department of Engineering for Innovation
+    Medicine, University of Verona. His work focuses on computational human
+    motion modelling, information fusion, markerless pose estimation, gait
+    analysis, and safe human-robot interaction.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
+    - network: ORCID
+      username: 0000-0002-4177-6599
     - network: LinkedIn
-      username: example
+      username: enrico-martini-50181715b
+    - network: Google Scholar
+      username: m4TgsRMAAAAJ
+    - network: GitHub
+      username: DoctorMartins9
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    city: Verona
+    region: Italy
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+    Research Focus:
+      - bullet: Human motion modelling, information fusion, and human-robot interaction.
+      - bullet: Markerless pose estimation, gait analysis, sparse sensing, and safe physical assistance.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Department of Engineering for Innovation Medicine, University of Verona
+        position: Postdoctoral Researcher
+        location: Verona, Italy
+        start_date: 2024-10
+        summary: Efficient human motion models for marker-less human-robot interaction.
         highlights:
-          - Relativity
-          - Description 2.
+          - Optimization-based and multimodal approaches to human motion reconstruction.
+          - Real-time human modeling for collaborative and safe robotics.
+          - Validation on synthetic benchmarks and human motion data.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Department of Mechanical Engineering and Applied Mechanics, University of Pennsylvania
+        position: Visiting Scholar
+        location: Philadelphia, PA, USA
+        start_date: 2024-01
+        end_date: 2024-07
+        summary: Real-time vision-based collision prediction and avoidance for safe human-robot coexistence and physical assistance.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Human motion prediction for collaborative and assistive robotics.
+          - Safe physical human-robot interaction in realistic scenarios.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Industrial Computer Engineering Lab (ICE LAB), University of Verona
+        position: Research Scholarship
+        location: Verona, Italy
+        start_date: 2021-05
+        end_date: 2021-09
+        summary: Development of human pose-estimation software distributed on embedded systems for industrial monitoring and safety at work.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: Parallel Computing Lab (PARCO LAB), University of Verona
+        position: Research Intern
+        location: Verona, Italy
+        start_date: 2018-09
+        end_date: 2021-05
+        summary: Development of human pose-estimation applications on embedded systems for real-time edge computing.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+    Education:
+      - institution: University of Verona
+        location: Verona, Italy
+        area: Efficient Deep Learning methods for real-time human motion denoising and completion on edge architectures.
+        studyType: Ph.D. in Computer Science
+        start_date: 2021-10
+        end_date: 2025-05
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - institution: University of Verona
+        location: Verona, Italy
+        area: GPA 4.00/4.00
+        studyType: Master's Degree in Computer Science, cum laude
+        start_date: 2019-10
+        end_date: 2021-07
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - institution: University of Verona
+        location: Verona, Italy
+        area: GPA 4.00/4.00
+        studyType: Bachelor's Degree in Computer Science
+        start_date: 2016-10
+        end_date: 2019-07
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    Teaching:
+      - bullet: >-
+          **Temporary Professor**, Department of Engineering for Innovation
+          Medicine, University of Verona (2024-present). *Programming for
+          cyber-physical systems*, BSc in Computer Engineering for Robotics and
+          Intelligent Systems, academic years 2024/2025 and 2025/2026.
+      - bullet: >-
+          **Teaching Assistant**, Department of Engineering for Innovation
+          Medicine, University of Verona (2021-2024). *Programming languages
+          and programming tools with laboratory*, BSc in Human Centered Medical
+          System Engineering, academic years 2022/2023 and 2023/2024.
+      - bullet: >-
+          **Teaching Assistant**, University of Verona (2021/2022).
+          *Programming I*, BSc in Computer Science.
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+    Selected Talks:
+      - bullet: Oral poster presentation at DATE 2025, Lyon, France, 30 Mar 2025.
+      - bullet: Oral paper presentation at IROS 2024, Abu Dhabi, United Arab Emirates, 15 Oct 2024.
+      - bullet: Oral paper presentation at RO-MAN 2024, Pasadena, California, USA, 27 Aug 2024.
+      - bullet: Invited talk at the Figueroa Robotics Laboratory, University of Pennsylvania, 31 Jan 2024.
+      - bullet: Oral paper presentation at EMBC 2022, Glasgow, Scotland, United Kingdom, 14 Jul 2022.
+      - bullet: Oral paper presentation at ICDH 2022, Barcelona, Spain, 13 Jul 2022.
+      - bullet: University booth presentation at DATE 2021, Grenoble, France, 5 Feb 2021.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    Advanced Courses:
+      - bullet: >-
+          ELLIS Summer School on Large-Scale AI for Research and Industry,
+          University of Modena and Reggio Emilia, Modena, Italy, Sep 2023.
+      - bullet: >-
+          PUMPS+AI Summer School, Barcelona Supercomputing Center, Barcelona,
+          Spain, Sep 2022.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Collaborice
+        summary: Human-robot interaction for Industry 5.0.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - PNRR project, 2024-2025.
+          - Role: research group member.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: PREPARE
+        summary: Personalized Engine for Prostate Cancer Evaluation.
+        highlights:
+          - Ministry of Economic Development project, 2023-2026.
+          - Role: research group member.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Publications:
+      - title: Upper-Limb Pose Estimation from Sparse Body-Worn Visual-Inertial Sensors
+        publisher: Under review for Signal Processing Letters
+        releaseDate: 2026
+
+      - title: "COMETH: Convex Optimization for Multiview Estimation and Tracking of Humans"
+        publisher: Expert Systems with Applications
+        releaseDate: 2026
+
+      - title: "Denoising and Completion Filters for Human Motion Software: A Survey with Code"
+        publisher: Computer Science Review
+        releaseDate: 2025
+
+      - title: "FLK: A Filter with Learned Kinematics for Real-Time 3D Human Pose Estimation"
+        publisher: Signal Processing
+        releaseDate: 2024
+        url: https://doi.org/10.1016/j.sigpro.2024.109598
+
+      - title: A Robust Filter for Marker-less Multi-person Tracking in Human-Robot Interaction Scenarios
+        publisher: IEEE RO-MAN 2024
+        releaseDate: 2024
+
+      - title: Enabling Gait Analysis in the Telemedicine Practice through Portable and Accurate 3D Human Pose Estimation
+        publisher: Computer Methods and Programs in Biomedicine
+        releaseDate: 2022
+
+    Skills:
+      - name: Research areas
+        keywords:
+          - Human motion modeling
+          - Human pose estimation
+          - Gait analysis
+          - Human-robot interaction
+
+      - name: Methods
+        keywords:
+          - Optimization-based estimation
+          - Multimodal sensor fusion
+          - Multiview tracking
+          - Motion denoising and completion
+
+      - name: Tools
+        keywords:
+          - Python
+          - Matlab
+          - CUDA C++
+          - C
+          - Edge and embedded deployment

@@ -2,12 +2,14 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
-nav: true
+description: Curated public repositories related to the research profile.
+nav: false
 nav_order: 4
 ---
 
-{% if site.data.repositories.github_users %}
+This section is reserved for selected public code, tools, and reproducible research artifacts.
+
+{% if site.data.repositories.github_users and site.data.repositories.github_users.size > 0 %}
 
 ## GitHub users
 
@@ -35,7 +37,7 @@ nav_order: 4
 {% endif %}
 {% endif %}
 
-{% if site.data.repositories.github_repos %}
+{% if site.data.repositories.github_repos and site.data.repositories.github_repos.size > 0 %}
 
 ## GitHub Repositories
 
@@ -45,3 +47,9 @@ nav_order: 4
   {% endfor %}
 </div>
 {% endif %}
+
+{% unless site.data.repositories.github_users and site.data.repositories.github_users.size > 0 or site.data.repositories.github_repos and site.data.repositories.github_repos.size > 0 %}
+
+No public repositories have been curated for display yet.
+
+{% endunless %}

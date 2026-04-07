@@ -1,15 +1,14 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
+title: Teaching
+description: Teaching, mentoring, and course support activities at the University of Verona.
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+This page collects formal teaching roles and course-support activities aligned with the academic CV.
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+The focus is on course delivery, teaching assistance, and lab-based programming support in computer science and cyber-physical systems.
 
 {% include courses.liquid %}

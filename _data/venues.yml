@@ -1,9 +1,77 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"SPL":
+  url: https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ESWA":
+  url: https://www.sciencedirect.com/journal/expert-systems-with-applications
+  color: "#0066cc"
 
-"Vision":
+"BSPC":
+  url: https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control
   color: "#009f36"
+
+"RAS":
+  url: https://www.sciencedirect.com/journal/robotics-and-autonomous-systems
+  color: "#f39c12"
+
+"CSR":
+  url: https://www.sciencedirect.com/journal/computer-science-review
+  color: "#8e44ad"
+
+"TNSRE":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7333
+  color: "#1f77b4"
+
+"SP":
+  url: https://www.sciencedirect.com/journal/signal-processing
+  color: "#27ae60"
+
+"TCAD":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43
+  color: "#34495e"
+
+"ROMAN":
+  url: https://ro-man.org/
+  color: "#e67e22"
+
+"IROS":
+  url: https://www.iros.org/
+  color: "#2c3e50"
+
+"DAC":
+  url: https://www.dac.com/
+  color: "#c0392b"
+
+"LATS":
+  color: "#7f8c8d"
+
+"CBM":
+  url: https://www.sciencedirect.com/journal/computers-in-biology-and-medicine
+  color: "#16a085"
+
+"IEEEA":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639
+  color: "#2980b9"
+
+"CMPB":
+  url: https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine
+  color: "#2ecc71"
+
+"ICDH":
+  color: "#95a5a6"
+
+"EMBC":
+  url: https://embc.embs.org/
+  color: "#d35400"
+
+"DCOSS":
+  url: https://dcoss.org/
+  color: "#9b59b6"
+
+"ETFA":
+  url: https://etfa2022.ieee-ies.org/
+  color: "#3498db"
+
+"JLP":
+  url: https://www.mdpi.com/journal/jlpea
+  color: "#f1c40f"

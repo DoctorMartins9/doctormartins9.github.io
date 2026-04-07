@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-08-27 09:00:00+02:00
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Presented work at RO-MAN 2024 in Pasadena on robust multi-person tracking for human-robot interaction scenarios.
