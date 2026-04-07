@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Selected research directions, methods, and application areas.
+description: Four research tracks aligned with the papers archive.
 nav: true
 nav_order: 3
 display_categories: [work]
@@ -10,6 +10,8 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+These four project pages reflect the current structure of `papers/`: each card corresponds to one folder and summarizes the publications collected in that research track.
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
