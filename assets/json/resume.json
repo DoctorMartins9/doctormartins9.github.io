@@ -1,0 +1,41 @@
+{
+  "basics": {
+    "name": "Enrico Martini",
+    "label": "Postdoctoral Researcher",
+    "email": "enrico.martini@univr.it",
+    "url": "https://doctormartins9.github.io",
+    "summary": "Postdoctoral researcher working on computational human motion modelling, information fusion, pose estimation, gait analysis, and human-robot interaction.",
+    "location": {
+      "city": "Verona",
+      "countryCode": "IT"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "DoctorMartins9",
+        "url": "https://github.com/DoctorMartins9"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "enrico-martini-50181715b",
+        "url": "https://www.linkedin.com/in/enrico-martini-50181715b"
+      },
+      {
+        "network": "ORCID",
+        "username": "0000-0002-4177-6599",
+        "url": "https://orcid.org/0000-0002-4177-6599"
+      }
+    ]
+  },
+  "work": [],
+  "education": [],
+  "publications": [],
+  "projects": [],
+  "volunteer": [],
+  "awards": [],
+  "certificates": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
