@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Selected research directions, methods, and application areas.",
+          description: "Four research tracks aligned with the papers archive.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -397,51 +397,26 @@ ninja.data = [{
           section: "News",},{id: "news-presented-recent-work-on-human-motion-estimation-at-date-2025-in-lyon-france",
           title: 'Presented recent work on human motion estimation at DATE 2025 in Lyon, France....',
           description: "",
-          section: "News",},{id: "projects-human-pose-estimation-for-gait-analysis",
-          title: 'Human Pose Estimation for Gait Analysis',
-          description: "Markerless pipelines for clinical and remote gait assessment.",
+          section: "News",},{id: "projects-human-motion-estimation-and-filtering",
+          title: 'Human Motion Estimation and Filtering',
+          description: "Robust pose filtering, multiview tracking, and sparse-sensor motion inference.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-cometh-multiview-estimation-and-tracking-of-humans",
-          title: 'COMETH: Multiview Estimation and Tracking of Humans',
-          description: "Multiview tracking for human-robot interaction and shared workcells.",
+            },},{id: "projects-gait-analysis-and-digital-motor-assessment",
+          title: 'Gait Analysis and Digital Motor Assessment',
+          description: "Markerless movement analysis for telemedicine, rehabilitation, and clinical validation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-flk-learned-kinematic-filtering",
-          title: 'FLK: Learned Kinematic Filtering',
-          description: "Real-time filtering for pose estimation on edge devices.",
+            },},{id: "projects-human-robot-collaboration-and-industrial-safety",
+          title: 'Human-Robot Collaboration and Industrial Safety',
+          description: "Perception and collision prediction for shared workcells and industrial interaction.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
-            },},{id: "projects-edge-deployment-for-motion-analysis",
-          title: 'Edge Deployment for Motion Analysis',
-          description: "Efficient inference and GPU-aware pipelines for human motion tasks.",
+            },},{id: "projects-edge-ai-systems-verification-and-deployment",
+          title: 'Edge AI Systems, Verification, and Deployment',
+          description: "Efficient platforms, benchmarking, and adaptive video analytics for real-world perception.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
-            },},{id: "projects-telemedicine-gait-assessment",
-          title: 'Telemedicine Gait Assessment',
-          description: "Portable motion analysis for rehabilitation and remote care.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project.html";
-            },},{id: "projects-denoising-and-completion-of-human-motion-signals",
-          title: 'Denoising and Completion of Human Motion Signals',
-          description: "Filters for sparse, noisy, or partially missing motion trajectories.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project.html";
-            },},{id: "projects-safety-monitoring-in-shared-workcells",
-          title: 'Safety Monitoring in Shared Workcells',
-          description: "Collision prediction and process-driven monitoring for human-robot collaboration.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project.html";
-            },},{id: "projects-verification-and-benchmarking-for-pose-estimation",
-          title: 'Verification and Benchmarking for Pose Estimation',
-          description: "Reproducible testing for markerless human pose estimation models.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project.html";
-            },},{id: "projects-multimodal-upper-limb-motion-analysis",
-          title: 'Multimodal Upper-Limb Motion Analysis',
-          description: "Sparse body-worn sensing for upper-limb pose estimation.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project.html";
             },},{id: "teachings-programming-for-cyber-physical-systems",
           title: 'Programming for Cyber-Physical Systems',
           description: "Adjunct teaching activity for the BSc in Computer Engineering for Robotics and Intelligent Systems.",
