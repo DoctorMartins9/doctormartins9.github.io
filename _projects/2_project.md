@@ -1,6 +1,6 @@
 ---
 layout: page
-title: COMETH: Multiview Estimation and Tracking of Humans
+title: "COMETH: Multiview Estimation and Tracking of Humans"
 description: Multiview tracking for human-robot interaction and shared workcells.
 img: /assets/img/3.jpg
 importance: 2

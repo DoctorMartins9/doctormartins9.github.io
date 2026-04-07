@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FLK: Learned Kinematic Filtering
+title: "FLK: Learned Kinematic Filtering"
 description: Real-time filtering for pose estimation on edge devices.
 img: /assets/img/4.jpg
 importance: 3
