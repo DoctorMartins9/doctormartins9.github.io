@@ -8,25 +8,16 @@ category: work
 related_publications: true
 ---
 
-This page consolidates the mixed material in `papers/others`, which supports the main research lines with systems work, verification tooling, and edge deployment methods.
-The emphasis is on making perception pipelines measurable, portable, and efficient enough for continuous use outside controlled lab settings.
+This project focuses on the part of AI that is often less visible, but decisive in practice: everything that has to work around the model for the model to matter. Real-world perception does not fail only because an algorithm is weak. It fails when data moves inefficiently across hardware, when robustness is assumed instead of measured, and when a deployed system cannot adjust as conditions drift away from the scenario it was trained for.
 
-Representative papers in this track include:
+The first concern is efficiency at the system level. On embedded platforms, performance depends not just on network architecture but on how memory is shared, how CPU and accelerator cooperate, and how software components communicate inside larger robotic or cyber-physical stacks. A perception pipeline that looks good on paper can become unusable if latency, bandwidth, or energy overheads are handled poorly. This project treats those infrastructural details as part of the intelligence of the system, not as afterthoughts.
 
-- 2021: {% cite de2021efficient %}
-- 2024: {% cite aldegheri2024verification %}
-- 2024: {% cite Boldo2024CASES %}
+The second concern is trust. If perception is meant to support healthcare, industrial safety, or autonomous interaction, it has to be tested under the kinds of imperfections that happen outside curated benchmarks: occlusions, low-quality sensing, mismatched domains, and degraded computational settings. That is why verification and benchmarking are central here. The aim is to move from generic accuracy claims to a more realistic understanding of how and when a model remains dependable in the field.
 
-Current focus areas:
+The final concern is adaptation over time. Edge devices are increasingly capable, but they operate in environments that keep changing: lighting shifts, scenes evolve, users behave differently, and the data slowly drifts away from the assumptions baked into the original model. A useful edge-AI system therefore needs to do more than run efficiently once. It needs to decide when quality is slipping, learn with limited resources, and keep improving without constantly handing control back to the cloud.
 
-- efficient CPU-iGPU communication on embedded platforms
-- verification and benchmarking of pose-estimation models
-- adaptive video analytics on edge devices
-- supporting systems work for dependable deployment
+Seen as a whole, this project is about building perception systems that can survive contact with reality. It connects low-level efficiency, rigorous validation, and lightweight adaptation into a single deployment mindset: models should not only be accurate, but measurable, maintainable, and capable of staying useful over time.
 
-Papers currently stored in this folder:
-
-- [Efficient ROS-Compliant CPU-iGPU Communication on Embedded Platforms (2021)]({{ '/papers/others/2021_JLPEA_CPUGPUCommunication.pdf' | relative_url }})
-- [A Verification Platform for Human Pose Estimation Models, LATS (2024)]({{ '/papers/others/2024_LATS_RAVE.pdf' | relative_url }})
-- [RADAR_KD_Rev1 draft (2024)]({{ '/papers/others/2024_RADAR_KD_Rev1.pdf' | relative_url }})
-- [Domain-Adaptive Online Active Learning for Real-Time Intelligent Video Analytics on Edge Devices (2024)]({{ '/papers/others/2024_TASE.pdf' | relative_url }})
+<div style="display: none;" aria-hidden="true">
+{% cite de2021efficient %}{% cite aldegheri2024verification %}{% cite Boldo2024CASES %}
+</div>

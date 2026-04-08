@@ -1,37 +1,21 @@
 ---
 layout: page
-title: Gait Analysis and Digital Motor Assessment
-description: Markerless movement analysis for telemedicine, rehabilitation, and clinical validation.
+title: Markerless Gait Analysis and Digital Motor Assessment
+description: From edge-deployed gait analysis to clinically grounded movement assessment for telemedicine and rehabilitation.
 img: /assets/img/12.jpg
 importance: 2
 category: work
 related_publications: true
 ---
 
-This track corresponds to `papers/project_2` and focuses on turning pose estimation into clinically meaningful motor assessment tools.
-The work spans gait analysis at a distance, privacy-aware telemedicine pipelines, and quantitative movement testing for rehabilitation settings.
+This project grows from a simple but demanding idea: if movement is going to be measured outside specialized motion labs, the technology must earn clinical trust. That means more than detecting joints on video. It means producing signals that are accurate enough to support assessment, portable enough to reach people at home, and respectful enough of privacy to fit naturally into telemedicine and rehabilitation workflows.
 
-Representative papers in this track include:
+At its core, the work treats markerless motion analysis as a bridge between computer vision and clinical reasoning. Walking patterns, coordination tests, and upper-limb trajectories become meaningful only when they can be translated into quantitative features that clinicians can interpret with confidence. For that reason, the project constantly moves between engineering constraints and medical usefulness: low-cost hardware, real-time execution, edge processing, and stable kinematic measurements all matter because they shape whether the final tool can actually be used in care.
 
-- 2022: {% cite martini2022enabling %}
-- 2022: {% cite martini2022real %}
-- 2022: {% cite martini2022preserving %}
-- 2022: {% cite martini2022pose %}
-- 2024: {% cite boldo2024reliability %}
-- 2024: {% cite vale2024does %}
+The broader vision is to make remote motor assessment feel less like a compromise and more like an extension of the clinic. Processing data close to the sensor protects sensitive video streams, while lightweight yet accurate pipelines make it possible to work in domestic and outpatient settings where resources are limited. At the same time, the methodology is not restricted to gait. The same approach can be extended to upper-limb tests and to other structured tasks where movement quality carries diagnostic or rehabilitative value.
 
-Current focus areas:
+What emerges from this project is a view of digital motor assessment that is both practical and humane. The aim is not to replace clinical expertise with automation, but to give it richer and more objective measurements, gathered in environments that are easier for patients to access. In that sense, the real contribution is not just better pose estimation, but a more usable path toward continuous, scalable, and clinically grounded movement evaluation.
 
-- markerless gait analysis in clinical and home environments
-- telemedicine-ready assessment workflows
-- privacy-preserving movement analytics
-- validation of digital biomarkers on real patient data
-
-Papers currently stored in this folder:
-
-- [Enabling Gait Analysis in the Telemedicine Practice through Portable and Accurate 3D Human Pose Estimation (2022)]({{ '/papers/project_2/2022_CMPB_GaitAnalysis.pdf' | relative_url }})
-- [Real-time human pose estimation at the edge for gait analysis at a distance, DCOSS (2022)]({{ '/papers/project_2/2022_DCOSS_GaitAnalysis.pdf' | relative_url }})
-- [Preserving Data Privacy and Accuracy of Human Pose Estimation Software Based on CNNs for Remote Gait Analysis, EMBC (2022)]({{ '/papers/project_2/2022_EMBC_GaitAnalysis.pdf' | relative_url }})
-- [On the Pose Estimation Software for Measuring Movement Features in the Finger-to-Nose Test, ICDH (2022)]({{ '/papers/project_2/2022_ICDH_FNT.pdf' | relative_url }})
-- [On the reliability of single-camera markerless systems for overground gait monitoring (2024)]({{ '/papers/project_2/2024_CBM.pdf' | relative_url }})
-- [Does Proprioceptive Impairment Affect Feedforward Motor Control? A Cross-Sectional Study on Patients With Brain Damage (2025)]({{ '/papers/project_2/2025_TNSRE.pdf' | relative_url }})
+<div style="display: none;" aria-hidden="true">
+{% cite martini2022enabling %}{% cite martini2022real %}{% cite martini2022preserving %}{% cite martini2022pose %}{% cite boldo2024reliability %}{% cite vale2024does %}
+</div>
