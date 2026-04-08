@@ -385,17 +385,17 @@ ninja.data = [{
               window.location.href = "/books/the_godfather.html";
             },},{id: "projects-human-motion-estimation-and-filtering",
           title: 'Human Motion Estimation and Filtering',
-          description: "Robust pose filtering, multiview tracking, and sparse-sensor motion inference.",
+          description: "A research line on robust human motion intelligence, from noisy pose refinement to sparse sensing and multiview tracking.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-gait-analysis-and-digital-motor-assessment",
-          title: 'Gait Analysis and Digital Motor Assessment',
-          description: "Markerless movement analysis for telemedicine, rehabilitation, and clinical validation.",
+            },},{id: "projects-markerless-gait-analysis-and-digital-motor-assessment",
+          title: 'Markerless Gait Analysis and Digital Motor Assessment',
+          description: "From edge-deployed gait analysis to clinically grounded movement assessment for telemedicine and rehabilitation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-human-robot-collaboration-and-industrial-safety",
           title: 'Human-Robot Collaboration and Industrial Safety',
-          description: "Perception and collision prediction for shared workcells and industrial interaction.",
+          description: "Real-time perception, robust tracking, and collision prediction for shared industrial workcells.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
             },},{id: "projects-edge-ai-systems-verification-and-deployment",
