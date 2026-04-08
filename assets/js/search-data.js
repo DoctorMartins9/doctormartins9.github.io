@@ -385,7 +385,7 @@ ninja.data = [{
               window.location.href = "/books/the_godfather.html";
             },},{id: "projects-human-motion-estimation-and-filtering",
           title: 'Human Motion Estimation and Filtering',
-          description: "A research line on robust human motion intelligence, from noisy pose refinement to sparse sensing and multiview tracking.",
+          description: "A research line on robust human motion modelling, from noisy pose refinement to sparse sensing and multiview tracking.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-markerless-gait-analysis-and-digital-motor-assessment",
