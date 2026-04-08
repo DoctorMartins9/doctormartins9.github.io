@@ -28,7 +28,17 @@
                 {% endif %}
               {% else %}
                 {% assign item_content = item.content | default: item.title | default: '' %}
-                {{ item_content | markdownify | remove: '<p>' | remove: '</p>' | strip | emojify }}
+                {% assign rendered_content = item_content | markdownify | remove: '<p>' | remove: '</p>' | strip | emojify %}
+                {% if item.url %}
+                  {% assign item_url = item.url | to_s %}
+                  {% if item_url contains '://' %}
+                    <a href="{{ item_url }}" target="_blank" rel="noopener noreferrer">{{ rendered_content }}</a>
+                  {% else %}
+                    <a href="{{ item_url | relative_url }}">{{ rendered_content }}</a>
+                  {% endif %}
+                {% else %}
+                  {{ rendered_content }}
+                {% endif %}
               {% endif %}
             </td>
           </tr>

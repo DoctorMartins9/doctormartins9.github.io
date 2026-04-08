@@ -9,7 +9,7 @@
 
 - date: 2026-02-20 09:00:00+02:00
   inline: true
-  content: Published our paper about "COMETH: Convex Optimization for Multiview Estimation and Tracking of Humans"
+  content: 'Published our paper about "COMETH: Convex Optimization for Multiview Estimation and Tracking of Humans"'
   url: https://parco-lab.github.io/COMETH/
 
 - date: 2026-02-09 09:00:00+02:00
@@ -18,12 +18,12 @@
 
 - date: 2025-12-15 09:00:00+02:00
   inline: true
-  content: Published our paper about "Collision prediction using plan learning in mixed human-robot work cells"
+  content: 'Published our paper about "Collision prediction using plan learning in mixed human-robot work cells"'
   url: https://www.sciencedirect.com/science/article/pii/S0921889025003896
 
 - date: 2025-06-15 09:00:00+02:00
   inline: true
-  content: Published our survey about "Denoising and completion filters for human motion software"
+  content: 'Published our survey about "Denoising and completion filters for human motion software"'
   url: https://www.sciencedirect.com/science/article/pii/S1574013725000565
 
 - date: 2025-05-23 09:00:00+02:00
