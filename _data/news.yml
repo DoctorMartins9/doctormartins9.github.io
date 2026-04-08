@@ -6,6 +6,30 @@
 # - title: optional; used for link-style news items
 # - url: optional; internal (/path) or external (https://...)
 
+
+- date: 2026-02-20 09:00:00+02:00
+  inline: true
+  content: Published our paper about "COMETH: Convex Optimization for Multiview Estimation and Tracking of Humans"
+  url: https://parco-lab.github.io/COMETH/
+
+- date: 2026-02-09 09:00:00+02:00
+  inline: true
+  content: Earned the European Seal of Excellence for the Marie Skłodowska‑Curie Actions Postdoctoral Fellowship 2025 (rating 95.0/100.0).
+
+- date: 2025-12-15 09:00:00+02:00
+  inline: true
+  content: Published our paper about "Collision prediction using plan learning in mixed human-robot work cells"
+  url: https://www.sciencedirect.com/science/article/pii/S0921889025003896
+
+- date: 2025-06-15 09:00:00+02:00
+  inline: true
+  content: Published our survey about "Denoising and completion filters for human motion software"
+  url: https://www.sciencedirect.com/science/article/pii/S1574013725000565
+
+- date: 2025-05-23 09:00:00+02:00
+  inline: true
+  content: Successfully defended my PhD thesis in Computer Science.
+
 - date: 2025-03-30 09:00:00+02:00
   inline: true
   content: Presented recent work on human motion estimation at DATE 2025 in Lyon, France.
@@ -22,6 +46,4 @@
   inline: true
   content: >
     From January to July 2024 I was a visiting scholar at the Department of Mechanical Engineering and Applied Mechanics,
-    University of Pennsylvania, in Philadelphia. The visit focused on real-time vision-based collision prediction and
-    avoidance for safe human-robot coexistence and physical assistance, and included an invited talk at the Figueroa
-    Robotics Laboratory.
+    University of Pennsylvania, in Philadelphia.
