@@ -383,21 +383,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-visiting-scholar-period-at-the-university-of-pennsylvania",
-          title: 'Visiting scholar period at the University of Pennsylvania',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_4.html";
-            },},{id: "news-presented-work-at-ro-man-2024-in-pasadena-on-robust-multi-person-tracking-for-human-robot-interaction-scenarios",
-          title: 'Presented work at RO-MAN 2024 in Pasadena on robust multi-person tracking for human-robot...',
-          description: "",
-          section: "News",},{id: "news-presented-a-paper-at-iros-2024-in-abu-dhabi-on-real-time-diffusion-based-filtering-for-human-pose-estimation",
-          title: 'Presented a paper at IROS 2024 in Abu Dhabi on real-time diffusion-based filtering...',
-          description: "",
-          section: "News",},{id: "news-presented-recent-work-on-human-motion-estimation-at-date-2025-in-lyon-france",
-          title: 'Presented recent work on human motion estimation at DATE 2025 in Lyon, France....',
-          description: "",
-          section: "News",},{id: "projects-human-motion-estimation-and-filtering",
+            },},{id: "projects-human-motion-estimation-and-filtering",
           title: 'Human Motion Estimation and Filtering',
           description: "Robust pose filtering, multiview tracking, and sparse-sensor motion inference.",
           section: "Projects",handler: () => {
