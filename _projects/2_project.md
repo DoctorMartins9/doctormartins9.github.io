@@ -2,7 +2,7 @@
 layout: page
 title: Markerless Gait Analysis and Digital Motor Assessment
 description: From edge-deployed gait analysis to clinically grounded movement assessment for telemedicine and rehabilitation.
-img: /assets/img/12.jpg
+img: /assets/img/walking.png
 importance: 2
 category: work
 related_publications: true

@@ -2,7 +2,7 @@
 layout: page
 title: Edge AI Systems, Verification, and Deployment
 description: Efficient platforms, benchmarking, and adaptive video analytics for real-world perception.
-img: /assets/img/10.jpg
+img: /assets/img/active_learning.png
 importance: 4
 category: work
 related_publications: true

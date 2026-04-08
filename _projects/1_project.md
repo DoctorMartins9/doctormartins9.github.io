@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Human Motion Estimation and Filtering
-description: A research line on robust human motion intelligence, from noisy pose refinement to sparse sensing and multiview tracking.
-img: /assets/img/4.jpg
+description: A research line on robust human motion modelling, from noisy pose refinement to sparse sensing and multiview tracking.
+img: /assets/img/main.gif
 importance: 1
 category: work
 related_publications: true

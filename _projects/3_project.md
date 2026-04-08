@@ -2,7 +2,7 @@
 layout: page
 title: Human-Robot Collaboration and Industrial Safety
 description: Real-time perception, robust tracking, and collision prediction for shared industrial workcells.
-img: /assets/img/9.jpg
+img: /assets/img/robot.png
 importance: 3
 category: work
 related_publications: true
