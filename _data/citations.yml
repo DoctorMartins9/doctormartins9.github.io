@@ -1,3 +1,87 @@
 metadata:
-  last_updated: "2026-04-07"
-papers: {}
+  last_updated: '2026-04-24'
+papers:
+  m4TgsRMAAAAJ:2P1L_qKh6hAC:
+    citations: 27
+    title: On the reliability of single-camera markerless systems for overground gait monitoring
+    year: '2024'
+  m4TgsRMAAAAJ:2osOgNQ5qMEC:
+    citations: 8
+    title: Real-time human pose estimation at the edge for gait analysis at a distance
+    year: '2022'
+  m4TgsRMAAAAJ:35N4QoGY0k4C:
+    citations: 1
+    title: On the query strategies for efficient online active distillation
+    year: '2023'
+  m4TgsRMAAAAJ:3s1wT3WcHBgC:
+    citations: 2
+    title: A real-time filter for human pose estimation based on denoising diffusion models for edge devices
+    year: '2024'
+  m4TgsRMAAAAJ:9yKSN-GCB0IC:
+    citations: 5
+    title: Preserving data privacy and accuracy of human pose estimation software based on CNN s for remote gait analysis
+    year: '2022'
+  m4TgsRMAAAAJ:CHSYGLWDkRkC:
+    citations: 0
+    title: Collision prediction using plan learning in mixed human-robot work cells
+    year: '2025'
+  m4TgsRMAAAAJ:EUQCXRtRnyEC:
+    citations: 0
+    title: 'A markerless platform for automatic assessment of gait based on Human Pose Estimation: A proof of concept'
+    year: '2026'
+  m4TgsRMAAAAJ:HoB7MX3m0LUC:
+    citations: 4
+    title: A Robust Filter for Marker-less Multi-person Tracking in Human-Robot Interaction Scenarios
+    year: '2024'
+  m4TgsRMAAAAJ:KxtntwgDAa4C:
+    citations: 0
+    title: 'COMETH: Convex Optimization for Multiview Estimation and Tracking of Humans'
+    year: '2026'
+  m4TgsRMAAAAJ:M05iB0D1s5AC:
+    citations: 38
+    title: Real-time multi-camera 3D human pose estimation at the edge for industrial applications
+    year: '2024'
+  m4TgsRMAAAAJ:P5F9QuxV20EC:
+    citations: 14
+    title: 'Denoising and completion filters for human motion software: A survey with code'
+    year: '2025'
+  m4TgsRMAAAAJ:SeFeTyx0c_EC:
+    citations: 12
+    title: 'FLK: A filter with learned kinematics for real-time 3D human pose estimation'
+    year: '2024'
+  m4TgsRMAAAAJ:ZHo1McVdvXMC:
+    citations: 8
+    title: Domain-adaptive online active learning for real-time intelligent video analytics on edge devices
+    year: '2024'
+  m4TgsRMAAAAJ:d1gkVwhDpl0C:
+    citations: 5
+    title: On the pose estimation software for measuring movement features in the finger-to-nose test
+    year: '2022'
+  m4TgsRMAAAAJ:dfsIfKJdRG4C:
+    citations: 2
+    title: Does proprioceptive impairment affect feedforward motor control? A cross-sectional study on patients with brain damage
+    year: '2024'
+  m4TgsRMAAAAJ:g5m5HwL7SMYC:
+    citations: 1
+    title: A Verification Platform for Human Pose Estimation Models
+    year: '2024'
+  m4TgsRMAAAAJ:pqnbT2bcN3wC:
+    citations: 2
+    title: 'Late Breaking Results: A real-time diffusion-based filter for human pose estimation on edge devices'
+    year: '2024'
+  m4TgsRMAAAAJ:qjMakFHDy7sC:
+    citations: 6
+    title: Process-driven collision prediction in human-robot work environments
+    year: '2022'
+  m4TgsRMAAAAJ:u-x6o8ySG0sC:
+    citations: 41
+    title: Enabling gait analysis in the telemedicine practice through portable and accurate 3D human pose estimation
+    year: '2022'
+  m4TgsRMAAAAJ:u5HHmVD_uO8C:
+    citations: 11
+    title: Efficient ros-compliant cpu-igpu communication on embedded platforms
+    year: '2021'
+  m4TgsRMAAAAJ:zA6iFVUQeVQC:
+    citations: 8
+    title: 'Enhancing safety and privacy in industry 4.0: The ice laboratory case study'
+    year: '2024'
