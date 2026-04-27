@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-24'
+  last_updated: '2026-04-27'
 papers:
   m4TgsRMAAAAJ:2P1L_qKh6hAC:
     citations: 27
@@ -14,7 +14,7 @@ papers:
     title: On the query strategies for efficient online active distillation
     year: '2023'
   m4TgsRMAAAAJ:3s1wT3WcHBgC:
-    citations: 2
+    citations: 3
     title: A real-time filter for human pose estimation based on denoising diffusion models for edge devices
     year: '2024'
   m4TgsRMAAAAJ:9yKSN-GCB0IC:
@@ -22,7 +22,7 @@ papers:
     title: Preserving data privacy and accuracy of human pose estimation software based on CNN s for remote gait analysis
     year: '2022'
   m4TgsRMAAAAJ:CHSYGLWDkRkC:
-    citations: 0
+    citations: 1
     title: Collision prediction using plan learning in mixed human-robot work cells
     year: '2025'
   m4TgsRMAAAAJ:EUQCXRtRnyEC:
@@ -30,7 +30,7 @@ papers:
     title: 'A markerless platform for automatic assessment of gait based on Human Pose Estimation: A proof of concept'
     year: '2026'
   m4TgsRMAAAAJ:HoB7MX3m0LUC:
-    citations: 4
+    citations: 5
     title: A Robust Filter for Marker-less Multi-person Tracking in Human-Robot Interaction Scenarios
     year: '2024'
   m4TgsRMAAAAJ:KxtntwgDAa4C:
@@ -38,11 +38,11 @@ papers:
     title: 'COMETH: Convex Optimization for Multiview Estimation and Tracking of Humans'
     year: '2026'
   m4TgsRMAAAAJ:M05iB0D1s5AC:
-    citations: 38
+    citations: 40
     title: Real-time multi-camera 3D human pose estimation at the edge for industrial applications
     year: '2024'
   m4TgsRMAAAAJ:P5F9QuxV20EC:
-    citations: 14
+    citations: 16
     title: 'Denoising and completion filters for human motion software: A survey with code'
     year: '2025'
   m4TgsRMAAAAJ:SeFeTyx0c_EC:
@@ -82,6 +82,6 @@ papers:
     title: Efficient ros-compliant cpu-igpu communication on embedded platforms
     year: '2021'
   m4TgsRMAAAAJ:zA6iFVUQeVQC:
-    citations: 8
+    citations: 9
     title: 'Enhancing safety and privacy in industry 4.0: The ice laboratory case study'
     year: '2024'
