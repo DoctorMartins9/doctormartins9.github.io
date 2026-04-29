@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-27'
+  last_updated: '2026-04-29'
 papers:
   m4TgsRMAAAAJ:2P1L_qKh6hAC:
     citations: 27
@@ -42,7 +42,7 @@ papers:
     title: Real-time multi-camera 3D human pose estimation at the edge for industrial applications
     year: '2024'
   m4TgsRMAAAAJ:P5F9QuxV20EC:
-    citations: 16
+    citations: 15
     title: 'Denoising and completion filters for human motion software: A survey with code'
     year: '2025'
   m4TgsRMAAAAJ:SeFeTyx0c_EC:
