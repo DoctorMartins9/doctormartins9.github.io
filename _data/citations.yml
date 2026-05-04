@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-29'
+  last_updated: '2026-05-04'
 papers:
   m4TgsRMAAAAJ:2P1L_qKh6hAC:
     citations: 27
@@ -22,7 +22,7 @@ papers:
     title: Preserving data privacy and accuracy of human pose estimation software based on CNN s for remote gait analysis
     year: '2022'
   m4TgsRMAAAAJ:CHSYGLWDkRkC:
-    citations: 1
+    citations: 0
     title: Collision prediction using plan learning in mixed human-robot work cells
     year: '2025'
   m4TgsRMAAAAJ:EUQCXRtRnyEC:
@@ -42,7 +42,7 @@ papers:
     title: Real-time multi-camera 3D human pose estimation at the edge for industrial applications
     year: '2024'
   m4TgsRMAAAAJ:P5F9QuxV20EC:
-    citations: 15
+    citations: 16
     title: 'Denoising and completion filters for human motion software: A survey with code'
     year: '2025'
   m4TgsRMAAAAJ:SeFeTyx0c_EC:
@@ -74,7 +74,7 @@ papers:
     title: Process-driven collision prediction in human-robot work environments
     year: '2022'
   m4TgsRMAAAAJ:u-x6o8ySG0sC:
-    citations: 41
+    citations: 42
     title: Enabling gait analysis in the telemedicine practice through portable and accurate 3D human pose estimation
     year: '2022'
   m4TgsRMAAAAJ:u5HHmVD_uO8C:
@@ -82,6 +82,6 @@ papers:
     title: Efficient ros-compliant cpu-igpu communication on embedded platforms
     year: '2021'
   m4TgsRMAAAAJ:zA6iFVUQeVQC:
-    citations: 9
+    citations: 8
     title: 'Enhancing safety and privacy in industry 4.0: The ice laboratory case study'
     year: '2024'
