@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-11'
+  last_updated: '2026-05-22'
 papers:
   m4TgsRMAAAAJ:2P1L_qKh6hAC:
     citations: 27
     title: On the reliability of single-camera markerless systems for overground gait monitoring
     year: '2024'
   m4TgsRMAAAAJ:2osOgNQ5qMEC:
-    citations: 8
+    citations: 9
     title: Real-time human pose estimation at the edge for gait analysis at a distance
     year: '2022'
   m4TgsRMAAAAJ:35N4QoGY0k4C:
@@ -18,7 +18,7 @@ papers:
     title: A real-time filter for human pose estimation based on denoising diffusion models for edge devices
     year: '2024'
   m4TgsRMAAAAJ:9yKSN-GCB0IC:
-    citations: 5
+    citations: 6
     title: Preserving data privacy and accuracy of human pose estimation software based on CNN s for remote gait analysis
     year: '2022'
   m4TgsRMAAAAJ:CHSYGLWDkRkC:
@@ -38,7 +38,7 @@ papers:
     title: 'COMETH: Convex Optimization for Multiview Estimation and Tracking of Humans'
     year: '2026'
   m4TgsRMAAAAJ:M05iB0D1s5AC:
-    citations: 41
+    citations: 42
     title: Real-time multi-camera 3D human pose estimation at the edge for industrial applications
     year: '2024'
   m4TgsRMAAAAJ:P5F9QuxV20EC:
