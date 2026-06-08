@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-27'
+  last_updated: '2026-06-08'
 papers:
   m4TgsRMAAAAJ:2P1L_qKh6hAC:
     citations: 27
@@ -34,15 +34,15 @@ papers:
     title: A Robust Filter for Marker-less Multi-person Tracking in Human-Robot Interaction Scenarios
     year: '2024'
   m4TgsRMAAAAJ:KxtntwgDAa4C:
-    citations: 1
+    citations: 2
     title: 'COMETH: Convex Optimization for Multiview Estimation and Tracking of Humans'
     year: '2026'
   m4TgsRMAAAAJ:M05iB0D1s5AC:
-    citations: 42
+    citations: 44
     title: Real-time multi-camera 3D human pose estimation at the edge for industrial applications
     year: '2024'
   m4TgsRMAAAAJ:P5F9QuxV20EC:
-    citations: 18
+    citations: 19
     title: 'Denoising and completion filters for human motion software: A survey with code'
     year: '2025'
   m4TgsRMAAAAJ:SeFeTyx0c_EC:
