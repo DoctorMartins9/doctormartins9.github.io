@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-07-22'
 papers:
   m4TgsRMAAAAJ:2P1L_qKh6hAC:
     citations: 30
@@ -38,7 +38,7 @@ papers:
     title: 'COMETH: Convex Optimization for Multiview Estimation and Tracking of Humans'
     year: '2026'
   m4TgsRMAAAAJ:M05iB0D1s5AC:
-    citations: 48
+    citations: 51
     title: Real-time multi-camera 3D human pose estimation at the edge for industrial applications
     year: '2024'
   m4TgsRMAAAAJ:P5F9QuxV20EC:
@@ -74,7 +74,7 @@ papers:
     title: Process-driven collision prediction in human-robot work environments
     year: '2022'
   m4TgsRMAAAAJ:u-x6o8ySG0sC:
-    citations: 42
+    citations: 43
     title: Enabling gait analysis in the telemedicine practice through portable and accurate 3D human pose estimation
     year: '2022'
   m4TgsRMAAAAJ:u5HHmVD_uO8C:
