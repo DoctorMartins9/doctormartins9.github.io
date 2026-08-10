@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-24'
+  last_updated: '2026-08-10'
 papers:
   m4TgsRMAAAAJ:2P1L_qKh6hAC:
-    citations: 31
+    citations: 32
     title: On the reliability of single-camera markerless systems for overground gait monitoring
     year: '2024'
   m4TgsRMAAAAJ:2osOgNQ5qMEC:
@@ -14,7 +14,7 @@ papers:
     title: On the query strategies for efficient online active distillation
     year: '2023'
   m4TgsRMAAAAJ:3s1wT3WcHBgC:
-    citations: 3
+    citations: 4
     title: A real-time filter for human pose estimation based on denoising diffusion models for edge devices
     year: '2024'
   m4TgsRMAAAAJ:9yKSN-GCB0IC:
@@ -30,7 +30,7 @@ papers:
     title: 'A markerless platform for automatic assessment of gait based on Human Pose Estimation: A proof of concept'
     year: '2026'
   m4TgsRMAAAAJ:HoB7MX3m0LUC:
-    citations: 7
+    citations: 8
     title: A Robust Filter for Marker-less Multi-person Tracking in Human-Robot Interaction Scenarios
     year: '2024'
   m4TgsRMAAAAJ:KxtntwgDAa4C:
@@ -38,7 +38,7 @@ papers:
     title: 'COMETH: Convex Optimization for Multiview Estimation and Tracking of Humans'
     year: '2026'
   m4TgsRMAAAAJ:M05iB0D1s5AC:
-    citations: 51
+    citations: 55
     title: Real-time multi-camera 3D human pose estimation at the edge for industrial applications
     year: '2024'
   m4TgsRMAAAAJ:P5F9QuxV20EC:
@@ -46,11 +46,11 @@ papers:
     title: 'Denoising and completion filters for human motion software: A survey with code'
     year: '2025'
   m4TgsRMAAAAJ:SeFeTyx0c_EC:
-    citations: 14
+    citations: 16
     title: 'FLK: A filter with learned kinematics for real-time 3D human pose estimation'
     year: '2024'
   m4TgsRMAAAAJ:ZHo1McVdvXMC:
-    citations: 11
+    citations: 13
     title: Domain-adaptive online active learning for real-time intelligent video analytics on edge devices
     year: '2024'
   m4TgsRMAAAAJ:d1gkVwhDpl0C:
@@ -63,14 +63,14 @@ papers:
     year: '2024'
   m4TgsRMAAAAJ:g5m5HwL7SMYC:
     citations: 1
-    title: A Verification Platform for Human Pose Estimation Models
+    title: A verification platform for human pose estimation models
     year: '2024'
   m4TgsRMAAAAJ:pqnbT2bcN3wC:
-    citations: 2
+    citations: 3
     title: 'Late Breaking Results: A real-time diffusion-based filter for human pose estimation on edge devices'
     year: '2024'
   m4TgsRMAAAAJ:qjMakFHDy7sC:
-    citations: 6
+    citations: 7
     title: Process-driven collision prediction in human-robot work environments
     year: '2022'
   m4TgsRMAAAAJ:u-x6o8ySG0sC:
@@ -82,6 +82,6 @@ papers:
     title: Efficient ros-compliant cpu-igpu communication on embedded platforms
     year: '2021'
   m4TgsRMAAAAJ:zA6iFVUQeVQC:
-    citations: 11
-    title: 'Enhancing safety and privacy in industry 4.0: The ice laboratory case study'
+    citations: 12
+    title: 'Enhancing safety and privacy in industry 4.0: The ICE laboratory case study'
     year: '2024'
